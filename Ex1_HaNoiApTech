@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<school>
+  <name> HaNoi ApTech </name>
+  <address> !9 Nguyen Trai, Thanh Xuan, Ha Noi </address>
+  <tell> 0987654321 </tell>
+  <department>
+      <employee>
+          <name> Nguyen Van A </name>
+          <room> 100 </room>        
+      </employee>
+      <employee>
+          <name> Nguyen Van B </name>
+          <room> 101 </room>        
+      </employee>
+      <employee>
+          <name> Nguyen Van C </name>
+          <room> 102 </room>        
+      </employee>
+  </department>
+  <listclass>
+      <class>
+          <name>T1601G</name>
+          <room>112</room>
+          <student>............</student>
+      </class>
+  </listclass>
+  
+</school>
