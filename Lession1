@@ -1,0 +1,18 @@
+Introduction XML
+  The benefit of XML are as follow:
+      Data Independence
+      Easier to parse
+      Reducing server load
+      Ease to create
+      Remote proceduce calls ( call to webservice...)
+      E-comerce (share information )
+  3. XML document structure
+     Three part
+      1.
+        1. Document prolog
+        2. Root element
+  4. XML document life cycle   
+        XMl --> parse --> brower
+  5. Editor: notepadd++, sublimetext, netbean ide,....
+  6. example XML
+  
