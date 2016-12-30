@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<superMarket>
+	<infomation>
+		<name>Siêu thị Big C</name>
+		<address>Trần Duy Hưng</address>
+		<phone>04123456789</phone>		
+		<department>
+			...................
+		</department>
+	</infomation>
+	<product idpro="mobile">
+		<phone hang="apple">			
+			<name>Iphone 7</name>
+			<price>12 triệu</price>
+			<company>Apple</company>
+			<warrante>24 tháng</warrante>
+			<verion>Ios</verion>
+			<style>.....</style>
+		</phone>
+		<phone hang="samsung">
+			<name>Galaxy 7</name>
+			<price>13 triệu</price>
+			<company>Samsung</company>
+			<warrante>12 tháng</warrante>
+			<version>Android 6.0</version>
+		</phone>
+	</product>
+	<product idpro="fashion">
+		<fashion sex="male">
+			<style> Sơ mi</style>
+			<name>Áo sơ mi</name>
+			<company>May 10</company>
+			<price>500 K</price>
+			<size>M</size>
+			<color>Trắng</color>
+		</fashion>		
+	</product>
+	<product id="technologi">
+		<tech idtech="computer">
+			<name>Lenovo T530</name>
+			<company>Lenovo</company>
+			<price>20 triệu</price>
+			<ram>4gb</ram>
+			<hdd>200Gb</hdd>
+			<cpu>core i6</cpu>
+			<service></service>
+		</tech>
+		<tech>.			
+		</tech>
+	</product>
+</superMarket>

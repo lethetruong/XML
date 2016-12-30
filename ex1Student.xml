@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ListStudent>
+	<student sid="s001">
+		<name>Nguyen Van A</name>
+		<adress>19 Nguyen Trai</adress>
+		<tell>09876543321</tell>
+	</student>
+	<student sid="s002">
+		<name>Nguyen Van B</name>
+		<address>201 Cau Giay</address>
+		<tell>09871233</tell>
+	</student>
+</ListStudent>
