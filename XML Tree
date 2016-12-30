@@ -1,0 +1,14 @@
+Cấu trúc thư mục XML là một hình cây với gốc là điểm bắt đầu "root" và các nhánh cây "banches" tới các lá cây "leaves"
+Cấu trúc cây XML
+  Tài liệu XML được tạo thành như một hình cây
+  Một cây XML bắt đầu với một gốc và các nhánh từ gốc tới các thành phần con
+  Tất cả các thành phần có thể có thành phần con
+      <root>
+        <child>
+          <subchild>.......</subchild>
+        </child>
+      </root>
+  Các thuật ngữ: Họ, con, anh chị em(sibling) được sử dụng để miêu tả mối quan hệ giữa các thành phần.
+  Họ có con, con có nhiều họ. Anh chị em là con cùng một cấp.
+  Tất cả các thành phần có nội dung văn bản và thuộc tính(attributes).
+  
