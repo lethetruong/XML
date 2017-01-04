@@ -1,1 +1,25 @@
 XML: Namespaces
+XML Namespaces provide a method to avoid element name conflicts.
+Solving the name conflict using a prefix.
+Syntax:
+  
+Example:
+    <?xml version="1.0" encoding="UTF-8" ?>
+      <music xmlns:a="aptech.vn" xmlns:b="aptech.com" xmlns="headoffice.com">
+          <a:cd a:id="001">
+              <name>Ha Noi mua thu</name>
+          </a:cd>
+          <b:singer b:id="001">
+              <name>My Linh</name>
+          </b:singer>
+          <baihat>
+              <name>Ba Toi</name>
+           </baihat>           
+       </music>
+
+
+xmlns: defaults in all element
+overwrite: declare live in element
+
+Namespaces --> defaults namespaces --> Overwrite namespaces
+Bai tap: Gộp hai danh sách khách hàng ở Hà Nội và Hồ Chí Minh vào một thẻ. Làm thế nào để phân biệt rõ khách hàng nào của tỉnh thành nào.
