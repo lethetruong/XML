@@ -1,0 +1,33 @@
+XML Thông thường: XML - wellform document : thỏa mãn các tính chất W3c
+XML+DTD = valid Documnet :
+DTD: Khai báo các thẻ được dùng trong XML.
+Mục đích: 
+  Chỉ đc phép sử dụng các thẻ đã được khai báo trong DTD, không được thêm thẻ khác. 
+  Mục đích để ràng buộc cấu trúc và kiểu dữ liệu.
+  Ràng buộc chặt chẽ, giảm thiểu việc chia sẻ dữ liệu không đồng bộ với nhau.
+Cấu trúc: 3 Phần:
+    Khai báo thẻ
+    Khai báo thuộc tính
+    Khai báo Entity
+    
+ DTD có 2 loại: externer và interner
+ Example:  
+      <?xml ..?>
+      // Khai báo DTD
+      <!DOCTYPE class [
+          <!ELEMENT class (student)+>
+          <!ELEMENT student (Name, Diachi, Telephone*)
+          
+      ]>
+      //
+      <class>
+        <student sid="001">
+          <Name>Nguyen Van A</Name>
+          <Diachi>!9- Nguyen Trai</Diachi>
+          <Telephone>0987654321</Telephone>
+          <Telephone>1234567890</Telephone>
+        </student>         
+      </class>
+      
+
+  
